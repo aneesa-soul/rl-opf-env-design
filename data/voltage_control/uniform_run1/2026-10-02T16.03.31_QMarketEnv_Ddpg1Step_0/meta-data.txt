@@ -1,0 +1,9 @@
+Description: QMarketEnv_Ddpg1Step_0
+Environment: mlopf.envs.thesis_envs:QMarketEnv
+DRL Algorithm: Ddpg1Step
+Seed: 10890751
+Training steps: 1000000
+Test interval/steps: 30000/200
+DRL-agent hyperparams: {'batch_size': 1024, 'memory_size': 1000000, 'actor_fc_dims': (256, 256, 256), 'critic_fc_dims': (256, 256, 256)}
+Environment hyperparams: {'train_data': 'full_uniform'}
+Comment: No comment
